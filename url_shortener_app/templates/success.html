@@ -2,13 +2,14 @@
 {% load static %}
 
 {% block content %}
-<h2>URL Shortened Successfully</h2>
-<a href="{% url 'shorten_url' %}">Go Back</a>
+<section class="success">
+    <h2>URL Shortened Successfully</h2>
 
-<p>
-    Original URL: <a href="{{ shortened_url.original_url }}" target="_blank">{{ shortened_url.original_url }}</a>
-</p>
-<p>
-    Shortened URL: <a href="{{ shortened_url.original_url }}" target="_blank">{{ shortened_url.short_code }}</a>
-</p>
+    <p>
+        Original URL: <a href="{{ shortened_url.original_url }}" target="_blank">{{ shortened_url.original_url }}</a>
+    </p>
+    <p>
+        Shortened URL: <a href="{{ shortened_url.original_url }}" target="_blank">{{ shortened_url.short_code }}</a>
+    </p>
+</section>
 {% endblock %}

@@ -2,8 +2,8 @@
 {% load static %}
 
 {% block content %}
-<h2>404 - URL Not Found</h2>
-<a href="{% url 'shorten_url' %}">Go Back</a>
-
-<p>The shortened URL does not exist.</p>
+<section class="not_found">
+    <h2>404 - URL Not Found</h2>
+    <p>The shortened URL does not exist.</p>
+</section>
 {% endblock %}
