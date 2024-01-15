@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h2>URL Shortened Successfully</h2>
+
+<p>
+    Original URL: <a href="{{ shortened_url.original_url }}" target="_blank">{{ shortened_url.original_url }}</a>
+</p>
+<p>
+    Shortened URL: <a href="{{ shortened_url.original_url }}" target="_blank">{{ shortened_url.short_code }}</a>
+</p>
+{% endblock %}
