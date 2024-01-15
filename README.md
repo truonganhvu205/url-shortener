@@ -1,8 +1,8 @@
 # Clone project
 ```bash
 git init
-git clone https://github.com/truonganhvu205/to-do-list-app-django.git
-cd to-do-list-app-django
+git clone https://github.com/truonganhvu205/url-shortener-django.git
+cd url-shortener-django
 ```
 
 ## Install pipenv
@@ -29,13 +29,6 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 
-## Account required
-```bash
-Django
-    django_tdl
-    djangotdl123$%^
-```
-
 ## Deactivate virtual environment
 ```bash
 exit
@@ -44,15 +37,15 @@ exit
 # Preview project
 <table align='center'>
   <tr align='center'>
-    <td>To-Do List for PC</td>
-    <td>To-Do List for Phone</td>
+    <td>Before shorten url</td>
+    <td>After shorten url</td>
   </tr>
   <tr align='center'>
     <td>
-      <img src='https://github.com/truonganhvu205/to-do-list-app-django/blob/main/to-do-list-app-django/to-do-list-app-django-pic-1.png' />
+      <img src='https://github.com/truonganhvu205/url-shortener-django/blob/main/url-shortener-django/url-shortener-django-pic-1.png' />
     </td>
     <td>
-      <img src='https://github.com/truonganhvu205/to-do-list-app-django/blob/main/to-do-list-app-django/to-do-list-app-django-pic-2.png' />
+      <img src='https://github.com/truonganhvu205/url-shortener-django/blob/main/url-shortener-django/url-shortener-django-pic-2.png' />
     </td>
   </tr>
 </table>
