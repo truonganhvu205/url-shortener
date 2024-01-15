@@ -3,6 +3,7 @@
 
 {% block content %}
 <h2>URL Shortened Successfully</h2>
+<a href="{% url 'shorten_url' %}">Go Back</a>
 
 <p>
     Original URL: <a href="{{ shortened_url.original_url }}" target="_blank">{{ shortened_url.original_url }}</a>

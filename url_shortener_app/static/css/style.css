@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: -10rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+input {
+    margin-top: 1rem;
+    padding: 4px;
+}
+
+input:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+a {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
